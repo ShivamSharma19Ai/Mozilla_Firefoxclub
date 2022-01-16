@@ -898,6 +898,9 @@ padding-left: 13%;
 .Socialhandlefooter2{
 width:50%;
 }
+.Socialhandlefooter2 a{
+  padding:0.5rem;
+  }
 .apart{
   position: relative;    
 }
