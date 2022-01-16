@@ -485,6 +485,9 @@ body.dark-theme {
   font-size: var(--smaller-font-size);
   color: var(--text-color);
 }
+.Socialhandlefooter2 a{
+padding:0.5rem;
+}
 
 /*=============== SCROLL UP ===============*/
 .scrollup {
