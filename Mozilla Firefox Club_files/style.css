@@ -310,5 +310,22 @@ h1{
     }
     .left img{
         width:125px;
+        display: none!important;
+    }
+    .mainheadingbanner{
+        text-align: center!important;
+    }
+    .subheading{
+        text-align: center!important;
+    }
+    .text-animated{
+        text-align: center!important;
+    }
+    .buttonslider{
+        top: 242px!important;
+        left: 8px!important;
+    }
+    .right{
+        flex: auto;
     }
 }
