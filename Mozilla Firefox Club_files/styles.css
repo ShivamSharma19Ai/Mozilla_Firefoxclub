@@ -370,6 +370,13 @@ body.dark-theme {
   margin-bottom: var(--mb-0-5);
 }
 
+.linked-in-img {
+  height: 25px!important;
+  width: 25px!important;
+  border-radius: 0%!important;
+  align-items: center;
+}
+
 /*=============== APP ===============*/
 .app__container {
   gap: 2.5rem;
