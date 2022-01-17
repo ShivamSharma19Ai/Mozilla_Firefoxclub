@@ -1,159 +1,995 @@
 <!DOCTYPE html>
+<!-- saved from url=(0034)http://firefox-vitb.atuljoshy.com/ -->
 <html lang="en">
-<title>Fox Code: Event</title>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<link rel="stylesheet" href="./index.css">
 
-<body>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
-    <!-- Header -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Mozilla Firefox Club_files/style.css">
+    <link rel="stylesheet" href="./Mozilla Firefox Club_files/styles.css">
+    <title>Mozilla Firefox Club</title>
+    <script src="./Mozilla Firefox Club_files/core.js.download"></script>
+    <link href="./Mozilla Firefox Club_files/boxicons.min.css" rel="stylesheet">
 
-    <!-- changes the w3 color to w3 black in below line -->
-    <header id="setBackgroundImage" class="w3-container w3-center w3-text-white" style="padding:100px 16px">
-        <div style="opacity: 100%;">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <script src="./Mozilla Firefox Club_files/bootstrap.min.js.download"></script>
+    <script src="./Mozilla Firefox Club_files/jquery.min.js.download"></script>
 
-            <class class="head-img">
-                <img width="150px" src="https://pngimg.com/uploads/firefox/firefox_PNG48.png">
-            </class>
-            <h1 class="w3-margin w3-jumbo">Foxcode Coding Event</h1>
-            <p class="w3-large">Be ready for one of the most enthrilling coding event!</p><br>
-            <a href=""><button class=" glow w3-text-black  w3-padding-large w3-xlarge w3-margin-top glow">Register
-                    Now!</button></a>
+
+    <style>
+        .Typewriter__cursor {
+            -webkit-animation: Typewriter-cursor 1s infinite;
+            animation: Typewriter-cursor 1s infinite;
+            margin-left: 1px
+        }
+
+        @-webkit-keyframes Typewriter-cursor {
+            0% {
+                opacity: 0
+            }
+
+            50% {
+                opacity: 1
+            }
+
+            100% {
+                opacity: 0
+            }
+        }
+
+        @keyframes Typewriter-cursor {
+            0% {
+                opacity: 0
+            }
+
+            50% {
+                opacity: 1
+            }
+
+            100% {
+                opacity: 0
+            }
+        }
+    </style>
+</head>
+
+<body data-new-gr-c-s-check-loaded="14.1044.0" data-gr-ext-installed="">
+    <nav class="navbar">
+        <div>
+            <a href="/index.html"><img src="./Mozilla Firefox Club_files/logo-word-hor.e20791bb4dd4.svg" alt="logo"
+                    width="100px"></a>
         </div>
-    </header>
-
-    <br>
-    <!-- about event -->
-    <div style="background-color: #101820FF;" class=" w3-text-white w3-padding-64 w3-container">
-        <div class="w3-content">
-            <div class="w3-twothird">
-                <h1 class="w3-text-white">About Fox Code</h1>
-                <p class="w3-text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
-                    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                    ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
-                    voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-                <br>
-                <p class="w3-text-grey">Et malesuada fames ac turpis egestas sed tempus urna. Urna condimentum mattis
-                    pellentesque id. Ut pharetra sit amet aliquam id diam. Viverra adipiscing at in tellus integer
-                    feugiat. Lorem donec massa sapien faucibus et molestie ac feugiat sed. Ultrices eros in cursus
-                    turpis massa tincidunt. Elementum tempus egestas sed sed. Augue neque gravida in fermentum et
-                    sollicitudin ac orci phasellus.
-                    So what are you waiting for, register now!!
-                </p>
-            </div>
-            <div class="w3-third w3-center">
-                <img class="img-about" width="300px" src="https://miro.medium.com/max/700/1*vJjJ3Mdok6Rvxx85IIRqBQ.gif"
-                    alt="img">
-            </div>
-        </div>
-
-    </div>
-    <br><br>
-
-
-    <!--SPONSORS-->
-
-    <div class="SponsorsParallax sponsorBackground">
-        <center>
-            <h2>SPONSORS OF THE EVENT</h2><br>
-            <!-- added margin on top to fit both the sponsor in between -->
-            <table style="margin-top: 10px;">
-                <tr>
-                    <td><img class="sponsor"
-                            src="https://d8it4huxumps7.cloudfront.net/images/d2c-logo/d2c-icon-800x800.jpg"
-                            alt="sponsor 1"></td>
-                    <td><img class="sponsor" src="https://static.ideaconnection.com/images/software/hackerearth-295.png"
-                            alt="sponsor 2">
-                    </td>
-                </tr>
-            </table>
-        </center>
-    </div>
-
-    <!-- perks of event -->
-    <div class="w3-row-padding w3-padding-64">
-        <div class="w3-content">
-            <div style="padding-right:20px ;" class="w3-third  ">
-                <img width="200px" class="img-perks"
-                    src="https://upload.wikimedia.org/wikipedia/commons/1/16/Firefox_logo%2C_2017.png" alt="img">
-            </div>
-
-            <div class="w3-twothird">
-                <h1 style="color: white;">PERKS OF THE EVENT</h1>
-                <p class="w3-text-grey">Habitasse platea dictumst vestibulum rhoncus est pellentesque. Natoque penatibus
-                    et magnis dis parturient montes nascetur ridiculus. Posuere sollicitudin aliquam ultrices sagittis
-                    orci a scelerisque purus semper. Nulla pharetra diam sit amet nisl suscipit. Enim ut sem viverra
-                    aliquet eget sit amet. Vitae justo eget magna fermentum iaculis eu non diam. Non consectetur a erat
-                    nam at lectus urna duis convallis. Consectetur libero id faucibus nisl. Auctor urna nunc id cursus
-                    metus aliquam eleifend. Sagittis id consectetur purus ut faucibus pulvinar elementum integer enim.
-                    Eget dolor morbi non arcu risus quis.</p>
-                <br>
-                <p class="w3-text-grey">Mauris vitae ultricies leo integer malesuada nunc vel. Erat velit scelerisque in
-                    dictum non consectetur a. Vel orci porta non pulvinar neque laoreet suspendisse interdum
-                    consectetur. Quis lectus nulla at volutpat diam ut venenatis tellus in. Ac ut consequat semper
-                    viverra nam libero justo. Leo vel fringilla est ullamcorper eget nulla. </p><br><br>
-            </div>
-        </div>
-    </div>
-
-    <!--event SCHEDULE-->
-    <div class="cd-slider">
-        <ul>
-            <li class="item current" style="background: rgb(236, 126, 43, 0.8)">
-                <div class="card" style="background: rgb(236, 126, 43);">
-                    <img src="img/day1.png">
-                    <div class="info">
-                        <h1 style="color: white;">Day #1</h1>
-                        <h4>Blah Blah!</h4>
-                        <p>Mauris vitae ultricies leo integer malesuada nunc vel. Erat velit scelerisque in
-                            dictum non consectetur a. Vel orci porta non pulvinar neque laoreet suspendisse interdum
-                            consectetur. Quis lectus nulla at volutpat diam ut venenatis tellus in.
-                            <em>Only the top 50 students on the Hacker earth leader board will be selected for ROUND
-                                2.</em>
-                        </p>
-                        <!-- <a href="#">Join Meet</a>  -->
-                    </div>
+        <div class="nav-links">
+            <a href="/index.html">Home</a>
+            <a href="/index.html#about">About</a>
+            <div class="dropdown">
+                <button class="dropbtn">Events
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                    <a href="/event.html">CodeFox</a>
                 </div>
-            </li>
-            <li class="item" style="background-color: rgba(86, 88, 88, 0.5);">
-                <div class="card" style="background: rgb(0, 0, 0);">
-                    <img style="width: 200px; padding: 15px;" src="img/day2.png">
+            </div>
+            <a href="/blog.html">Blogs</a>
+            <a href="/index.html#team">Team</a>
+        </div>
+        <div>
+            <a href="https://mozillaregister.herokuapp.com/login" class="btn-nav">Login</a>
+        </div>
+    </nav>
+    <div class="main-container">
+        <div class="logo-container">
+            <img src="./Mozilla Firefox Club_files/firefox-logo.png" alt="" class="main-logo">
+            <h1 class="heading mainheadingbanner">Mozilla Firefox Club</h1>
+            <p class="subheading">A student club in VIT-Bhopal</p>
+            <p class="text-animated">A team fully stacked with <span id="text-type"><span
+                        class="Typewriter__wrapper">Designers</span><span class="Typewriter__cursor">|</span></span></p>
+            <div class="btn-container">
+                <a href="https://discord.gg/hsYeQevDnW" class="btn-dsc btn-1"> <img
+                        src="./Mozilla Firefox Club_files/discord-alt-logo-36.png" alt="" class="icons"> Join
+                    Discord</a>
+                <a href="https://linktr.ee/Mozilla_firefox_vitb" class="btn-likt btn-1"> <img
+                        src="./Mozilla Firefox Club_files/linktree.png" alt="" class="icons">Linktree</a>
+            </div>
+        </div>
 
-                    <div class="info">
-                        <h1 style="color: white;">Day #2</h1>
-                        <h4>Blah Blah!</h4>
-                        <p>Mauris vitae ultricies leo integer malesuada nunc vel. Erat velit scelerisque in
-                            dictum non consectetur a. Vel orci porta non pulvinar neque laoreet suspendisse interdum
-                            consectetur. Quis lectus nulla at volutpat diam ut venenatis tellus in. Join in and find out
-                        </p>
-                        <!-- <a href="#">Register Now</a> -->
-                    </div>
-                </div>
-            </li>
-        </ul>
-        <nav>
-            <a href="#" class="prev">
-                <svg viewBox="0 0 20 20">
-                    <path fill="#FFFFFF" stroke-width="0"
-                        d="M8.388,10.049l4.76-4.873c0.303-0.31,0.297-0.804-0.012-1.105c-0.309-0.304-0.803-0.293-1.105,0.012L6.726,9.516c-0.303,0.31-0.296,0.805,0.012,1.105l5.433,5.307c0.152,0.148,0.35,0.223,0.547,0.223c0.203,0,0.406-0.08,0.559-0.236c0.303-0.309,0.295-0.803-0.012-1.104L8.388,10.049z">
-                    </path>
-                </svg>
-            </a>
-            <a href="#" class="next">
-                <svg viewBox="0 0 20 20">
-                    <path fill="#FFFFFF" stroke-width="0"
-                        d="M11.611,10.049l-4.76-4.873c-0.303-0.31-0.297-0.804,0.012-1.105c0.309-0.304,0.803-0.293,1.105,0.012l5.306,5.433c0.304,0.31,0.296,0.805-0.012,1.105L7.83,15.928c-0.152,0.148-0.35,0.223-0.547,0.223c-0.203,0-0.406-0.08-0.559-0.236c-0.303-0.309-0.295-0.803,0.012-1.104L11.611,10.049z">
-                    </path>
-                </svg>
-            </a>
-        </nav>
     </div>
-    <!--  -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
-    <script src="index.js"></script>
+    <div class="bg-dark">
+        <video autoplay="" loop="" muted="" class="video_selector">
+            <source src="./Mozilla Firefox Club_files/particle1.mov" type="video/mp4">
+        </video>
+        <h2 class="heading"
+            style="text-align:center!important; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; padding-top: 45px; ">
+            Upcoming Events</h2>
+        <section class=" slideshow__section container">
+
+            <div id="slide">
+                <div class="slideshow-container">
+                    <div class="apart mySlides fade">
+                        <img src="./Mozilla Firefox Club_files/Sliderimage1.jpeg" style="width:100vw">
+                        <div
+                            class="buttonslider button w3-display-bottomleft w3-large w3-container w3-padding-16 w3-black">
+                            Register Now <img style="height: 42px; Width: 42px; position: absolute;
+                            bottom: -1px;" src="./Mozilla Firefox Club_files/lock-icon-7.png" alt="">
+                        </div>
+                    </div>
+                    <div class="apart mySlides fade">
+                        <img src="./Mozilla Firefox Club_files/Imageslider2.jpeg" style="width:100vw">
+                        <div
+                            class="buttonslider button w3-display-bottomleft w3-large w3-container w3-padding-16 w3-black">
+                            Ended
+                        </div>
+                    </div>
+                    <div class="apart mySlides fade">
+                        <img src="./Mozilla Firefox Club_files/Comingsoon.jpeg" style="width:100vw">
+
+                    </div>
+
+
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a> <a class="next"
+                        onclick="plusSlides(1)">&#10095;</a>
+                </div>
+                <br>
+                <div style="text-align:center">
+                    <span class="dot" onclick="currentSlide(1)"></span>
+                    <span class="dot" onclick="currentSlide(2)"></span>
+                    <span class="dot" onclick="currentSlide(3)"></span>
+                    <span class="dot" onclick="currentSlide(4)"></span>
+                </div>
+        </section>
+        <!--=============== ABOUT ===============-->
+        <section class="about section container" id="about">
+            <div class="about__container grid">
+                <div class="about__data">
+                    <h2 class="heading">What Is a Mozilla Campus Club?</h2>
+                    <p class="about__description">Mozilla’s mission is to ensure the Internet is <br> a global
+                        public
+                        resource, open and accessible to all. A Mozilla University &amp; College Club is a group
+                        of
+                        students
+                        with a passion for technology who meet regularly to advance this mission by building and
+                        innovating on open source projects that keep the web open.
+                    </p>
+                </div>
+
+                <img src="./Mozilla Firefox Club_files/internet.svg" alt="" class="about__img svg__img">
+            </div>
+        </section>
+        <section class="about section container">
+            <div class="about__container grid">
+                <div class="about__data">
+                    <h2 class="heading">Mozilla Firefox VIT-Bhopal</h2>
+                    <p class="about__description">Mozilla Firefox VIT-Bhopal is an interactive club. We know
+                        that web
+                        development has a high scope in the future. We also know that our college has many
+                        talented
+                        students. Most students don't get appropriate guidance and opportunities to outcast
+                        their skills
+                        and advance their career in the field of web development. Our club will help individuals
+                        to get
+                        their correct domain so that they can work precisely in their field and grab the best
+                        placement.
+                        Our club will work as the voice of students.
+                    </p>
+                </div>
+                <img src="./Mozilla Firefox Club_files/student.svg" alt="" class="svg__img">
+            </div>
+        </section>
+        <!--=============== WHAT WE DO ===============-->
+        <section class="what-we-do section container" id="what-we-do">
+            <h2 class="heading center">What We Do? </h2>
+            <div class="what-we-do__container grid">
+                <div class="what-we-do__data">
+                    <h3 class="what-we-do__subtitle">Creating strong communities</h3>
+                    <img src="./Mozilla Firefox Club_files/community.svg" alt="" class="what-we-do__img">
+                    <p class="what-we-do__description">by bringing together local groups who care about the
+                        internet we
+                        can achieve great things.</p>
+                </div>
+
+                <div class="what-we-do__data">
+                    <h3 class="what-we-do__subtitle">Making internet <br> a better place</h3>
+                    <img src="./Mozilla Firefox Club_files/safe.svg" alt="" class="what-we-do__img">
+                    <p class="what-we-do__description">Our mission is to ensure the Internet is a global public
+                        resource, open and accessible to all.
+                    </p>
+                </div>
+
+                <div class="what-we-do__data">
+                    <h3 class="what-we-do__subtitle">Contributing to <br> open source</h3>
+                    <img src="./Mozilla Firefox Club_files/coding.svg" alt="" class="what-we-do__img">
+                    <p class="what-we-do__description">students with a passion for technology who meet regularly
+                        to
+                        build and innovate on open source projects that keep the web open.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <!--=============== HISTORY ===============-->
+        <section class="about section container">
+            <div class="about__container grid">
+                <div class="about__data">
+                    <h2 class="heading">The History Of The Club</h2>
+                    <p class="about__description history__description">Long before Mozilla’s first formal
+                        student
+                        program, “Campus Reps”, opened its doors in 2008, students have been playing a crucial
+                        role in
+                        the development of Mozilla and the web itself.
+                    </p>
+                    <p class="about__description history__description">The student-built Lynx browser was one of
+                        the
+                        first and Mosaic (Firefox’s distant ancestor!), pioneered by students and staff, opened
+                        the
+                        graphical web to millions. Many of the original community members who worked on the
+                        first
+                        firefox in 2002 were students just like you.
+                    </p>
+                </div>
+                <img src="./Mozilla Firefox Club_files/blog.svg" alt="" class="svg__img svg__color app__img">
+            </div>
+        </section>
+
+        <!--=============== BLOG ===============-->
+        <section class="what-we-do section container" id="blog">
+            <h2 class="heading center">Blog</h2>
+            <div class="what-we-do__container grid">
+                <div class="what-we-do__data">
+                    <h3 class="what-we-do__subtitle blog_post">Bug Bounty Hunting</h3>
+                    <p class="what-we-do__description blog_post">You might wonder what this bug bounty hunting is. Is it
+                        hunting bugs or what? Well certainly its you hunting down bugs but not the ones we have in real
+                        life. ...</p>
+                    <a href="https://medium.com/@mfirefox491/bug-bounty-hunting-14add8107ab" target="_blank">
+                        <p class="what-we-do__description blog_desc blog_post">Read More</p>
+                    </a>
+
+                </div>
+
+                <div class="what-we-do__data">
+                    <h3 class="what-we-do__subtitle blog_post">Cappella Of C#</h3>
+                    <p class="what-we-do__description blog_post">C# is a comparatively young language that provides an
+                        edge to the programmers in the IT market. There are enormous and incredible ideas that make it
+                        even more special in comparison to c++ and other programming languages ...</p>
+                    <a href="https://medium.com/@mfirefox491/cappella-of-c-91f1a78d470f" target="_blank">
+                        <p class="what-we-do__description blog_desc blog_post">Read More</p>
+                    </a>
+
+                </div>
+
+                <div class="what-we-do__data">
+                    <h3 class="what-we-do__subtitle blog_post">LINUX AND DISTROS</h3>
+                    <p class="what-we-do__description blog_post">On August 25th 1991, a 21-year-old graduate student in
+                        Helsinki named “Linus Torvalds” announced that he’s doing a free operating system just as a
+                        hobby and won’t be a big professional thing. ...</p>
+                    <a href="https://medium.com/@mfirefox491/linux-and-distros-f87c7aea22a0" target="_blank">
+                        <p class="what-we-do__description blog_desc blog_post">Read More</p>
+                    </a>
+
+                </div>
+            </div>
+        </section>
+
+
+        <!--=============== TEAM ===============-->
+        <section class="what-we-do section container" id="team">
+            <h2 class="heading center ">Meet our team </h2>
+            <div class="what-we-do__container grid">
+                <div class="what-we-do__data team trans">
+                </div>
+
+                <div class="what-we-do__data team ">
+                    <img src="./Mozilla Firefox Club_files/hemang-jiwnani.jpg" class="what-we-do__img team__img">
+                    <h3>Hemang Jiwnani </h3>
+                    <h4 class="desig">President</h4>
+                    <a href="https://www.linkedin.com/in/hemangjiwnani/">
+                        <img alt="Linked-in" src="./Mozilla Firefox Club_files/linked-in.png" width=150" height="70"
+                            class="linked-in-img">
+                    </a>
+                </div>
+                <div class="what-we-do__data team trans">
+
+
+                </div>
+            </div>
+            <!-- vice president  -->
+            <h2 class="heading center ">Vice Presidents</h2>
+            <div class="what-we-do__container grid">
+                <div class="what-we-do__data team">
+                    <img src="./Mozilla Firefox Club_files/Ayush-Maheshwari.jpg" class="what-we-do__img team__img">
+                    <h3>Ayush Maheshwari </h3>
+                    <h4>Vice-President</h4>
+                    <a href="https://www.linkedin.com/in/ayush-maheshwari-840916214/">
+                        <img alt="Linked-in" src="./Mozilla Firefox Club_files/linked-in.png" width=150" height="70"
+                            class="linked-in-img">
+                    </a>
+                </div>
+
+                <div class="what-we-do__data team trans">
+                    <img src="./Mozilla Firefox Club_files/firefox-logo.png" class=" " width="950px">
+
+                </div>
+                <div class="what-we-do__data team">
+                    <img src="./Mozilla Firefox Club_files/Janhvi Rajyaguru.jpeg" class="what-we-do__img team__img">
+                    <h3>Janhvi Rajyaguru </h3>
+                    <h4>Vice-President</h4>
+                    <a href="https://www.linkedin.com/in/janhvi-rajyaguru-8b6309209/">
+                        <img alt="Linked-in" src="./Mozilla Firefox Club_files/linked-in.png" width=150" height="70"
+                            class="linked-in-img">
+                    </a>
+                </div>
+            </div>
+            <h2 class="heading center ">Team Leads</h2>
+            <div class="what-we-do__container grid">
+                <div class="what-we-do__data team">
+                    <img src="./Mozilla Firefox Club_files/Shivam Sharma.jpeg" class="what-we-do__img team__img">
+                    <h3>Shivam Sharma </h3>
+                    <h4>Technical Squad Lead</h4>
+                    <a href="https://www.linkedin.com/in/shivam-sharma-bbab16210/">
+                        <img alt="Linked-in" src="./Mozilla Firefox Club_files/linked-in.png" width=150" height="70"
+                            class="linked-in-img">
+                    </a>
+                </div>
+
+                <div class="what-we-do__data team">
+                    <img src="./Mozilla Firefox Club_files/Shreyash s.jpg" class="what-we-do__img team__img">
+                    <h3>Shreyash Sompurkar </h3>
+                    <h4>Creative Squad Lead</h4>
+                    <a href="https://www.linkedin.com/in/shreyash-sompurkar-171312209/">
+                        <img alt="Linked-in" src="./Mozilla Firefox Club_files/linked-in.png" width=150" height="70"
+                            class="linked-in-img">
+                    </a>
+                </div>
+                <div class="what-we-do__data team">
+                    <img src="./Mozilla Firefox Club_files/Siddhesh Khope.jpeg" class="what-we-do__img team__img">
+                    <h3>Siddhesh Khope </h3>
+                    <h4>Management Squad Lead</h4>
+                    <a href="https://www.linkedin.com/in/siddhesh-khope-55930a215/">
+                        <img alt="Linked-in" src="./Mozilla Firefox Club_files/linked-in.png" width=150" height="70"
+                            class="linked-in-img">
+                    </a>
+                </div>
+                <div class="what-we-do__data team">
+                    <img src="./Mozilla Firefox Club_files/Harsh Singh.jpg" class="what-we-do__img team__img">
+                    <h3>Harsh Singh Kushwaha </h3>
+                    <h4>Social Squad Lead</h4>
+                    <a href="https://www.linkedin.com/in/harsh-singh-kushwaha-ba1470207/">
+                        <img alt="Linked-in" src="./Mozilla Firefox Club_files/linked-in.png" width=150" height="70"
+                            class="linked-in-img">
+                    </a>
+                </div>
+
+                <div class="what-we-do__data team">
+                    <img src="./Mozilla Firefox Club_files/MITASHI GANDHI.jpg" class="what-we-do__img team__img">
+                    <h3>Mitashi Gandhi </h3>
+                    <h4>Content Squad Lead</h4>
+                    <a href="https://www.linkedin.com/in/mitashi-gandhi-a58323216/">
+                        <img alt="Linked-in" src="./Mozilla Firefox Club_files/linked-in.png" width=150" height="70"
+                            class="linked-in-img">
+                    </a>
+                </div>
+                <div class="what-we-do__data team">
+                    <img src="./Mozilla Firefox Club_files/Aditi namdev.jpg" class="what-we-do__img team__img">
+                    <h3>Aditi Namdev </h3>
+                    <h4>PR & Outreach Squad Lead</h4>
+                    <a href="https://www.linkedin.com/in/aditi-namdev-1a2398203/">
+                        <img alt="Linked-in" src="./Mozilla Firefox Club_files/linked-in.png" width=150" height="70"
+                            class="linked-in-img">
+                    </a>
+                </div>
+            </div>
+            <h2 class="heading center ">Co-Leads</h2>
+            <div class="what-we-do__container grid">
+                <div class="what-we-do__data team">
+                    <img src="./Mozilla Firefox Club_files/Atul Joshy.jpeg" class="what-we-do__img team__img">
+                    <h3>Atul Joshy </h3>
+                    <h4>Technical Squad Co-Lead</h4>
+                    <a href="https://www.linkedin.com/in/atuljoshy/">
+                        <img alt="Linked-in" src="./Mozilla Firefox Club_files/linked-in.png" width=150" height="70"
+                            class="linked-in-img">
+                    </a>
+                </div>
+
+                <div class="what-we-do__data team">
+                    <img src="./Mozilla Firefox Club_files/PARMEET SINGH BANWAIT.jpg" class="what-we-do__img team__img">
+                    <h3>Parmeet Singh Banwait </h3>
+                    <h4>Creative Squad Co-Lead</h4>
+                    <a href="https://www.linkedin.com/in/improbable-13/">
+                        <img alt="Linked-in" src="./Mozilla Firefox Club_files/linked-in.png" width=150" height="70"
+                            class="linked-in-img">
+                    </a>
+                </div>
+                <div class="what-we-do__data team">
+                    <img src="./Mozilla Firefox Club_files/zankhana mehta.png" class="what-we-do__img team__img">
+                    <h3>Zankhana Mehta </h3>
+                    <h4>Management Squad Co-Lead</h4>
+                    <a href="https://www.linkedin.com/in/zankhana-mehta-505a8a212/">
+                        <img alt="Linked-in" src="./Mozilla Firefox Club_files/linked-in.png" width=150" height="70"
+                            class="linked-in-img">
+                    </a>
+                </div>
+                <div class="what-we-do__data team">
+                    <img src="./Mozilla Firefox Club_files/PRAKHAR SINHA.jpeg" class="what-we-do__img team__img">
+                    <h3>Prakhar Sinha </h3>
+                    <h4>Social Squad Co-Lead</h4>
+                    <a href="https://www.linkedin.com/in/prakhar-sinha-b90b8a18b/">
+                        <img alt="Linked-in" src="./Mozilla Firefox Club_files/linked-in.png" width=150" height="70"
+                            class="linked-in-img">
+                    </a>
+                </div>
+
+                <div class="what-we-do__data team">
+                    <img src="./Mozilla Firefox Club_files/Ashutosh Chandra Pant.jpg" class="what-we-do__img team__img">
+                    <h3>Ashutosh Chandra Pant </h3>
+                    <h4>Content Squad Co-Lead</h4>
+                    <a href="https://www.linkedin.com/in/ashutoshchandrapant/">
+                        <img alt="Linked-in" src="./Mozilla Firefox Club_files/linked-in.png" width=150" height="70"
+                            class="linked-in-img">
+                    </a>
+                </div>
+                <div class="what-we-do__data team">
+                    <img src="./Mozilla Firefox Club_files/Aditya Jaiswal.jpg" class="what-we-do__img team__img">
+                    <h3>Aditya Jaiswal </h3>
+                    <h4>PR & Outreach Squad Co-Lead</h4>
+                    <a href="https://www.linkedin.com/in/aditya-jaiswal-102410209/">
+                        <img alt="Linked-in" src="./Mozilla Firefox Club_files/linked-in.png" width=150" height="70"
+                            class="linked-in-img">
+                    </a>
+                </div>
+            </div>
+            <h2 class="heading center ">Core Team</h2>
+            <div class="what-we-do__container grid">
+                <div class="what-we-do__data team">
+                    <img src="./Mozilla Firefox Club_files/shreya gupta.jpg" class="what-we-do__img team__img">
+                    <h3>Shreya Gupta </h3>
+                    <h4>Technical Team</h4>
+                    <a href="#">
+                        <img alt="Linked-in" src="./Mozilla Firefox Club_files/linked-in.png" width=150" height="70"
+                            class="linked-in-img">
+                    </a>
+                </div>
+
+                <div class="what-we-do__data team">
+                    <img src="./Mozilla Firefox Club_files/Amit verma.jpeg" class="what-we-do__img team__img">
+                    <h3>Amit Verma </h3>
+                    <h4>Technical Team</h4>
+                    <a href="#">
+                        <img alt="Linked-in" src="./Mozilla Firefox Club_files/linked-in.png" width=150" height="70"
+                            class="linked-in-img">
+                    </a>
+                </div>
+                <div class="what-we-do__data team">
+                    <img src="./Mozilla Firefox Club_files/SUBHAM BANERJEE.jpeg" class="what-we-do__img team__img">
+                    <h3>Subham Banerjee </h3>
+                    <h4>Technical Team</h4>
+                    <a href="https://www.linkedin.com/in/subham-banerjee-bb28971b5/">
+                        <img alt="Linked-in" src="./Mozilla Firefox Club_files/linked-in.png" width=150" height="70"
+                            class="linked-in-img">
+                    </a>
+                </div>
+                <div class="what-we-do__data team">
+                    <img src="./Mozilla Firefox Club_files/Siddhartha Sharma.jpg" class="what-we-do__img team__img">
+                    <h3>Siddhartha Sharma </h3>
+                    <h4>Technical Team</h4>
+                    <a href="https://www.linkedin.com/in/siddhartha-sharma-105b03202/">
+                        <img alt="Linked-in" src="./Mozilla Firefox Club_files/linked-in.png" width=150" height="70"
+                            class="linked-in-img">
+                    </a>
+                </div>
+
+                <div class="what-we-do__data team">
+                    <img src="./Mozilla Firefox Club_files/Anurag Singh.jpg" class="what-we-do__img team__img">
+                    <h3>Anurag Singh </h3>
+                    <h4>Technical Team</h4>
+                    <a href="#">
+                        <img alt="Linked-in" src="./Mozilla Firefox Club_files/linked-in.png" width=150" height="70"
+                            class="linked-in-img">
+                    </a>
+                </div>
+                <div class="what-we-do__data team">
+                    <img src="./Mozilla Firefox Club_files/Sahil Shenoy.JPG" class="what-we-do__img team__img">
+                    <h3>Sahil Shenoy </h3>
+                    <h4>Technical Team</h4>
+                    <a href="https://www.linkedin.com/in/sahilshenoy/">
+                        <img alt="Linked-in" src="./Mozilla Firefox Club_files/linked-in.png" width=150" height="70"
+                            class="linked-in-img">
+                    </a>
+                </div>
+                <div class="what-we-do__data team">
+                    <img src="./Mozilla Firefox Club_files/Nikhil Yadav.jpeg" class="what-we-do__img team__img">
+                    <h3>Nikhil Yadav </h3>
+                    <h4>Technical Team</h4>
+                    <a href="https://www.linkedin.com/in/nikhil-yadav-5099531b8/">
+                        <img alt="Linked-in" src="./Mozilla Firefox Club_files/linked-in.png" width=150" height="70"
+                            class="linked-in-img">
+                    </a>
+                </div>
+
+                <div class="what-we-do__data team">
+                    <img src="./Mozilla Firefox Club_files/DISHA CHAUHAN.png" class="what-we-do__img team__img">
+                    <h3>Disha Chauhan </h3>
+                    <h4>Technical Team</h4>
+                    <a href="https://www.linkedin.com/in/disha-chauhan-461645214/">
+                        <img alt="Linked-in" src="./Mozilla Firefox Club_files/linked-in.png" width=150" height="70"
+                            class="linked-in-img">
+                    </a>
+                </div>
+                <div class="what-we-do__data team">
+                    <img src="./Mozilla Firefox Club_files/Kumar Shanu.jpg" class="what-we-do__img team__img">
+                    <h3>Kumar Shanu </h3>
+                    <h4>Technical Team</h4>
+                    <a href="https://www.linkedin.com/in/kr-shanu/">
+                        <img alt="Linked-in" src="./Mozilla Firefox Club_files/linked-in.png" width=150" height="70"
+                            class="linked-in-img">
+                    </a>
+                </div>
+                <div class="what-we-do__data team">
+                    <img src="./Mozilla Firefox Club_files/Hemanth Sai.jpg" class="what-we-do__img team__img">
+                    <h3>Hemanth Sai </h3>
+                    <h4>Technical Team</h4>
+                    <a href="https://www.linkedin.com/in/hemanthsai3187/">
+                        <img alt="Linked-in" src="./Mozilla Firefox Club_files/linked-in.png" width=150" height="70"
+                            class="linked-in-img">
+                    </a>
+                </div>
+
+                <div class="what-we-do__data team">
+                    <img src="./Mozilla Firefox Club_files/Sajal Gupta.jpeg" class="what-we-do__img team__img">
+                    <h3>Sajal Gupta </h3>
+                    <h4>Technical Team</h4>
+                    <a href="https://www.linkedin.com/in/guptasajal411/">
+                        <img alt="Linked-in" src="./Mozilla Firefox Club_files/linked-in.png" width=150" height="70"
+                            class="linked-in-img">
+                    </a>
+                </div>
+                <div class="what-we-do__data team">
+                    <img src="./Mozilla Firefox Club_files/Chetna Bagwan.jpg" class="what-we-do__img team__img">
+                    <h3>Chetna Bagwan </h3>
+                    <h4>Technical Team</h4>
+                    <a href="https://www.linkedin.com/in/chetna-bagwan-aa0312209/">
+                        <img alt="Linked-in" src="./Mozilla Firefox Club_files/linked-in.png" width=150" height="70"
+                            class="linked-in-img">
+                    </a>
+                </div>
+                <div class="what-we-do__data team">
+                    <img src="./Mozilla Firefox Club_files/YASH JAIN.png" class="what-we-do__img team__img">
+                    <h3>Yash Jain </h3>
+                    <h4>Creative Team</h4>
+                    <a href="https://www.linkedin.com/in/yash-jain-31660221b/">
+                        <img alt="Linked-in" src="./Mozilla Firefox Club_files/linked-in.png" width=150" height="70"
+                            class="linked-in-img">
+                    </a>
+                </div>
+
+                <div class="what-we-do__data team">
+                    <img src="./Mozilla Firefox Club_files/ABHINAV AGRAWAL.jpg" class="what-we-do__img team__img">
+                    <h3>Abhinav Agrawal </h3>
+                    <h4>Creative Team</h4>
+                    <a href="#">
+                        <img alt="Linked-in" src="./Mozilla Firefox Club_files/linked-in.png" width=150" height="70"
+                            class="linked-in-img">
+                    </a>
+                </div>
+                <div class="what-we-do__data team">
+                    <img src="./Mozilla Firefox Club_files/Nayan Panda.jpeg" class="what-we-do__img team__img">
+                    <h3>Nayan Panda </h3>
+                    <h4>Creative Team</h4>
+                    <a href="https://www.linkedin.com/in/aestivial/">
+                        <img alt="Linked-in" src="./Mozilla Firefox Club_files/linked-in.png" width=150" height="70"
+                            class="linked-in-img">
+                    </a>
+                </div>
+                <div class="what-we-do__data team">
+                    <img src="./Mozilla Firefox Club_files/AGNIVESH KUMAR.jpg" class="what-we-do__img team__img">
+                    <h3>Agnivesh Kumar </h3>
+                    <h4>Creative Team</h4>
+                    <a href="https://www.linkedin.com/in/agnivesh-kumar-1747b721b/">
+                        <img alt="Linked-in" src="./Mozilla Firefox Club_files/linked-in.png" width=150" height="70"
+                            class="linked-in-img">
+                    </a>
+                </div>
+
+                <div class="what-we-do__data team">
+                    <img src="./Mozilla Firefox Club_files/Kaustubh Chimote.jpeg" class="what-we-do__img team__img">
+                    <h3>Kaustubh Chimote </h3>
+                    <h4>Creative Team</h4>
+                    <a href="https://www.linkedin.com/in/kaustubh-chimote/">
+                        <img alt="Linked-in" src="./Mozilla Firefox Club_files/linked-in.png" width=150" height="70"
+                            class="linked-in-img">
+                    </a>
+                </div>
+                <div class="what-we-do__data team">
+                    <img src="./Mozilla Firefox Club_files/Satwik Kumar.jpg" class="what-we-do__img team__img">
+                    <h3>Satwik Kumar </h3>
+                    <h4>Creative Team</h4>
+                    <a href="https://www.linkedin.com/in/satwik-kumar-535494226/">
+                        <img alt="Linked-in" src="./Mozilla Firefox Club_files/linked-in.png" width=150" height="70"
+                            class="linked-in-img">
+                    </a>
+                </div>
+                <div class="what-we-do__data team">
+                    <img src="./Mozilla Firefox Club_files/Sanay Singh Rajawat.jpeg" class="what-we-do__img team__img">
+                    <h3>Sanay Singh Rajawat </h3>
+                    <h4>Management Team</h4>
+                    <a href="https://www.linkedin.com/in/sanay-singh-rajawat/">
+                        <img alt="Linked-in" src="./Mozilla Firefox Club_files/linked-in.png" width=150" height="70"
+                            class="linked-in-img">
+                    </a>
+                </div>
+
+                <div class="what-we-do__data team">
+                    <img src="./Mozilla Firefox Club_files/Tithi Patel.jpg" class="what-we-do__img team__img">
+                    <h3>Tithi Patel </h3>
+                    <h4>Management Team</h4>
+                    <a href="https://www.linkedin.com/in/tithi-patel-ab4989207/">
+                        <img alt="Linked-in" src="./Mozilla Firefox Club_files/linked-in.png" width=150" height="70"
+                            class="linked-in-img">
+                    </a>
+                </div>
+                <div class="what-we-do__data team">
+                    <img src="./Mozilla Firefox Club_files/PRAGYA MAHAJAN.jpg" class="what-we-do__img team__img">
+                    <h3>Pragya Mahajan </h3>
+                    <h4>Management Team</h4>
+                    <a href="https://www.linkedin.com/in/pragya-mahajan-a14046204/">
+                        <img alt="Linked-in" src="./Mozilla Firefox Club_files/linked-in.png" width=150" height="70"
+                            class="linked-in-img">
+                    </a>
+                </div>
+                <div class="what-we-do__data team">
+                    <img src="./Mozilla Firefox Club_files/SHREYA CHAKRABORTY.jpeg" class="what-we-do__img team__img">
+                    <h3>Shreya Chakraborty </h3>
+                    <h4>Management Team</h4>
+                    <a href="#">
+                        <img alt="Linked-in" src="./Mozilla Firefox Club_files/linked-in.png" width=150" height="70"
+                            class="linked-in-img">
+                    </a>
+                </div>
+
+                <div class="what-we-do__data team">
+                    <img src="./Mozilla Firefox Club_files/abhiman gautam.jpeg" class="what-we-do__img team__img">
+                    <h3>Abhiman Gautam </h3>
+                    <h4>Management Team</h4>
+                    <a href="https://www.linkedin.com/in/abhiman-gautam-3b20671ba/">
+                        <img alt="Linked-in" src="./Mozilla Firefox Club_files/linked-in.png" width=150" height="70"
+                            class="linked-in-img">
+                    </a>
+                </div>
+                <div class="what-we-do__data team">
+                    <img src="./Mozilla Firefox Club_files/Divyansh Singhal.jpeg" class="what-we-do__img team__img">
+                    <h3>Divyansh Singhal </h3>
+                    <h4>Management Team</h4>
+                    <a href="https://www.linkedin.com/in/divu007/">
+                        <img alt="Linked-in" src="./Mozilla Firefox Club_files/linked-in.png" width=150" height="70"
+                            class="linked-in-img">
+                    </a>
+                </div>
+                <div class="what-we-do__data team">
+                    <img src="./Mozilla Firefox Club_files/Joshith Gopidi.png" class="what-we-do__img team__img">
+                    <h3>Joshith Reddy Gopidi </h3>
+                    <h4>Management Team</h4>
+                    <a href="https://www.linkedin.com/in/joshith-reddy-gopidi/">
+                        <img alt="Linked-in" src="./Mozilla Firefox Club_files/linked-in.png" width=150" height="70"
+                            class="linked-in-img">
+                    </a>
+                </div>
+
+                <div class="what-we-do__data team">
+                    <img src="./Mozilla Firefox Club_files/Diya Phoolwani.jpg" class="what-we-do__img team__img">
+                    <h3>Diya Phoolwani </h3>
+                    <h4>Social Team</h4>
+                    <a href="https://www.linkedin.com/in/diya-phoolwani-01647420b/">
+                        <img alt="Linked-in" src="./Mozilla Firefox Club_files/linked-in.png" width=150" height="70"
+                            class="linked-in-img">
+                    </a>
+                </div>
+                <div class="what-we-do__data team">
+                    <img src="./Mozilla Firefox Club_files/DEEPANSHU DANGI.jpg" class="what-we-do__img team__img">
+                    <h3>Deepanshu Dangi </h3>
+                    <h4>Social Team</h4>
+                    <a href="https://www.linkedin.com/in/deepanshudangi/">
+                        <img alt="Linked-in" src="./Mozilla Firefox Club_files/linked-in.png" width=150" height="70"
+                            class="linked-in-img">
+                    </a>
+                </div>
+                <div class="what-we-do__data team">
+                    <img src="./Mozilla Firefox Club_files/PRIYANSHU NAGARIYA.JPG" class="what-we-do__img team__img">
+                    <h3>Priyanshu Nagariya </h3>
+                    <h4>Social Team</h4>
+                    <a href="https://www.linkedin.com/in/priyanshu-nagariya-6164531b6/">
+                        <img alt="Linked-in" src="./Mozilla Firefox Club_files/linked-in.png" width=150" height="70"
+                            class="linked-in-img">
+                    </a>
+                </div>
+
+                <div class="what-we-do__data team">
+                    <img src="./Mozilla Firefox Club_files/Ashish Jose.jpeg" class="what-we-do__img team__img">
+                    <h3>Ashish Jose </h3>
+                    <h4>Social Team</h4>
+                    <a href="https://www.linkedin.com/in/ashish-jose-0a2204208/">
+                        <img alt="Linked-in" src="./Mozilla Firefox Club_files/linked-in.png" width=150" height="70"
+                            class="linked-in-img">
+                    </a>
+                </div>
+                <div class="what-we-do__data team">
+                    <img src="./Mozilla Firefox Club_files/HARSHIT RAJ.jpg" class="what-we-do__img team__img">
+                    <h3>Harshit Raj </h3>
+                    <h4>Social Team</h4>
+                    <a href="#">
+                        <img alt="Linked-in" src="./Mozilla Firefox Club_files/linked-in.png" width=150" height="70"
+                            class="linked-in-img">
+                    </a>
+                </div>
+                <div class="what-we-do__data team">
+                    <img src="./Mozilla Firefox Club_files/NITESH Kumar Mandoriya.jpeg"
+                        class="what-we-do__img team__img">
+                    <h3>Nitesh Kumar Mandoriya </h3>
+                    <h4>Social Team</h4>
+                    <a href="https://www.linkedin.com/in/nitesh-kumar-mandoriya-0a773a227/">
+                        <img alt="Linked-in" src="./Mozilla Firefox Club_files/linked-in.png" width=150" height="70"
+                            class="linked-in-img">
+                    </a>
+                </div>
+
+                <div class="what-we-do__data team">
+                    <img src="./Mozilla Firefox Club_files/Aditi Khandelwal.jpg" class="what-we-do__img team__img">
+                    <h3>Aditi Khandelwal </h3>
+                    <h4>Content Team</h4>
+                    <a href="https://www.linkedin.com/in/aditi-khandelwal-412a07213/">
+                        <img alt="Linked-in" src="./Mozilla Firefox Club_files/linked-in.png" width=150" height="70"
+                            class="linked-in-img">
+                    </a>
+                </div>
+                <div class="what-we-do__data team">
+                    <img src="./Mozilla Firefox Club_files/ASHWIN R.jpg" class="what-we-do__img team__img">
+                    <h3>Ashwin R </h3>
+                    <h4>Content Team</h4>
+                    <a href="https://www.linkedin.com/in/ashwin-ramesh-240b341a1/">
+                        <img alt="Linked-in" src="./Mozilla Firefox Club_files/linked-in.png" width=150" height="70"
+                            class="linked-in-img">
+                    </a>
+                </div>
+                <div class="what-we-do__data team">
+                    <img src="./Mozilla Firefox Club_files/Prateek Agarwal.jpeg" class="what-we-do__img team__img">
+                    <h3>Prateek Agarwal </h3>
+                    <h4>Content Team</h4>
+                    <a href="https://www.linkedin.com/in/prateek-agarwal-6296bb201/">
+                        <img alt="Linked-in" src="./Mozilla Firefox Club_files/linked-in.png" width=150" height="70"
+                            class="linked-in-img">
+                    </a>
+                </div>
+
+                <div class="what-we-do__data team">
+                    <img src="./Mozilla Firefox Club_files/SHAURYADITYA YADAV.jpeg" class="what-we-do__img team__img">
+                    <h3>Shauryaditya Yadav </h3>
+                    <h4>Content Team</h4>
+                    <a href="https://www.linkedin.com/in/shauryaditya-yadav/">
+                        <img alt="Linked-in" src="./Mozilla Firefox Club_files/linked-in.png" width=150" height="70"
+                            class="linked-in-img">
+                    </a>
+                </div>
+                <div class="what-we-do__data team">
+                    <img src="./Mozilla Firefox Club_files/SHIVANSH AGRAWAL.png" class="what-we-do__img team__img">
+                    <h3>Shivansh Agrawal </h3>
+                    <h4>Content Team</h4>
+                    <a href="https://www.linkedin.com/in/shivansh-agrawal-75171221a/">
+                        <img alt="Linked-in" src="./Mozilla Firefox Club_files/linked-in.png" width=150" height="70"
+                            class="linked-in-img">
+                    </a>
+                </div>
+
+                <div class="what-we-do__data team">
+                    <img src="./Mozilla Firefox Club_files/Urvashi Soni.png" class="what-we-do__img team__img">
+                    <h3>Urvashi Soni </h3>
+                    <h4>PR & Outreach Team</h4>
+                    <a href="#">
+                        <img alt="Linked-in" src="./Mozilla Firefox Club_files/linked-in.png" width=150" height="70"
+                            class="linked-in-img">
+                    </a>
+                </div>
+                <div class="what-we-do__data team">
+                    <img src="./Mozilla Firefox Club_files/Mahika.jpeg" class="what-we-do__img team__img">
+                    <h3>Mahika Agrawal </h3>
+                    <h4>PR & Outreach Team</h4>
+                    <a href="https://www.linkedin.com/in/mahika-agrawal-b938471b1/">
+                        <img alt="Linked-in" src="./Mozilla Firefox Club_files/linked-in.png" width=150" height="70"
+                            class="linked-in-img">
+                    </a>
+                </div>
+                <div class="what-we-do__data team">
+                    <img src="./Mozilla Firefox Club_files/RUMIT.png" class="what-we-do__img team__img">
+                    <h3>Rumit Nagori </h3>
+                    <h4>PR & Outreach Team</h4>
+                    <a href="#">
+                        <img alt="Linked-in" src="./Mozilla Firefox Club_files/linked-in.png" width=150" height="70"
+                            class="linked-in-img">
+                    </a>
+                </div>
+
+                <div class="what-we-do__data team">
+                    <img src="./Mozilla Firefox Club_files/Manish Kumar.jpeg" class="what-we-do__img team__img">
+                    <h3>Manish Kumar </h3>
+                    <h4>PR & Outreach Team</h4>
+                    <a href="https://www.linkedin.com/in/manishsingh0418/">
+                        <img alt="Linked-in" src="./Mozilla Firefox Club_files/linked-in.png" width=150" height="70"
+                            class="linked-in-img">
+                    </a>
+                </div>
+                <div class="what-we-do__data team">
+                    <img src="./Mozilla Firefox Club_files/Drashya Jain.jpeg" class="what-we-do__img team__img">
+                    <h3>Drashya Jain </h3>
+                    <h4>PR & Outreach Team</h4>
+                    <a href="#">
+                        <img alt="Linked-in" src="./Mozilla Firefox Club_files/linked-in.png" width=150" height="70"
+                            class="linked-in-img">
+                    </a>
+                </div>
+            </div>
+
+
+        </section>
+        <!--=============== CONTACT US ===============-->
+        <h3 class="heading center">Contact Us</h3>
+        <section class="contact section container flex" id="contact">
+            <div class="right">
+                <form
+                    action="https://docs.google.com/forms/u/0/d/e/1FAIpQLScfVhL5g88uX9XXbmYtvL02yYL2BRRTkh7qRthXW7gCgJGi8Q/formResponse"
+                    name="contact_form" method="POST">
+                    <label for="first_name">Name</label>
+                    <input name="entry.202212135" type="text" required="" placeholder="Your Name">
+                    <br>
+                    <label for="email">Email</label>
+                    <input name="entry.861490410" type="email" required="" placeholder="Your Email">
+                    <br>
+                    <label for="message">Message</label><br>
+                    <textarea name="entry.946776517" cols="30" rows="10"
+                        placeholder="Enter your message here ..."></textarea>
+                    <div class="center">
+                        <input type="submit" value="Submit" onclick="setTimeout(redirect, 300)">
+                    </div>
+                </form>
+            </div>
+            <div class="left">
+                <img src="./Mozilla Firefox Club_files/sample4.png" alt="">
+            </div>
+
+        </section>
+
+
+
+        <!--=============== FOOTER ===============-->
+        <footer class="footer section">
+            <div class="footer__container container grid">
+                <div class="footer__content">
+                    <a href="#" class="footer__logo"><img src="./Mozilla Firefox Club_files/firefox-logo.png"
+                            alt=""></a>
+
+                </div>
+
+                <div class="footer__content">
+                    <h3 class="footer__title">Site Map</h3>
+                    <ul class="footer__links">
+                        <li><a href="#" class="footer__link">Home</a></li>
+                        <li><a href="#" class="footer__link">About</a></li>
+                        <li><a href="#" class="footer__link">What we do</a></li>
+
+                    </ul>
+                </div>
+
+                <div class="footer__content">
+                    <h3 class="footer__title">Our Club</h3>
+                    <ul class="footer__links">
+                        <li><a href="#" class="footer__link">Blog</a></li>
+                        <li><a href="#" class="footer__link">Team</a></li>
+                        <li><a href="#" class="footer__link">Get in touch</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer__content">
+                    <h3 class="footer__title">Community</h3>
+                    <ul class="footer__links">
+                        <li><a href="#" class="footer__link">Support</a></li>
+                        <li><a href="#" class="footer__link">Questions</a></li>
+                        <li><a href="#" class="footer__link">help</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer__content">
+                    <h3 class="footer__title">Events</h3>
+                    <ul class="footer__links">
+                        <li><a href="#" class="footer__link">Codefox</a></li>
+                        <li><a href="#" class="footer__link">Inaugration</a></li>
+                        <li><a href="#" class="footer__link">Mozweek</a></li>
+                    </ul>
+                </div>
+
+                <!-- <div class="footer__social">
+                    <a href="#" class="footer__social-link"><i class='bx bxl-facebook-circle '></i></a>
+                    <a href="#" class="footer__social-link"><i class='bx bxl-twitter'></i></a>
+                    <a href="#" class="footer__social-link"><i class='bx bxl-instagram-alt'></i></a>
+                </div> -->
+            </div>
+
+            <!-- <p class="footer__copy">&#169; Mozilla Firefox Club VIT Bhopal. All right reserved</p> -->
+
+            <div class="Socialhandlesfooter">
+                <div class="Socialhandlesfooter1">
+                    <p style="color:black;">&#169; Mozilla Firefox Club VIT Bhopal. All right reserved</p>
+                </div>
+                <div class="Socialhandlefooter2">
+                    <a class="Facebook" href="https://www.facebook.com/mfcvitbhopal"><img
+                            src="./Mozilla Firefox Club_files/facebook.svg" alt="facebook" /></a>
+                    <a class="instagram" href="https://www.instagram.com/mfc_vitb/"><img
+                            src="./Mozilla Firefox Club_files/instagram.svg" alt="instagram"></a>
+                    <a class="twitter" href="https://twitter.com/MFCVITB"><img
+                            src="./Mozilla Firefox Club_files/twitter.svg" alt="twitter"></a>
+                    <a class="youtube" href="https://www.youtube.com/channel/UCpjSQPsGfRA4BdyTmic6Ofg"><img
+                            src="./Mozilla Firefox Club_files/youtube.svg" alt="youtube"></a>
+                    <a class="linkedin"
+                        href="https://www.linkedin.com/company/mozilla-firefox-club-vit-bhopal/mycompany/"><img
+                            src="./Mozilla Firefox Club_files/linkedin.svg" alt="linkdien"></a>
+                    <a class="discord" href="https://discord.gg/SNTB97Qagp"><img
+                            src="./Mozilla Firefox Club_files/discord.svg" alt="discord"></a>
+                    <a class="github" href="https://github.com/Mozilla-Firefox-VITBhopal"><img
+                            src="./Mozilla Firefox Club_files/github.svg" alt="github"></a>
+
+                </div>
+            </div>
+        </footer>
+
+    </div>
+    <script src="./Mozilla Firefox Club_files/app.js.download"></script>
+    <script>
+        var slideIndex = 0;
+        showSlides();
+        var slides, dots;
+
+        function showSlides() {
+            var i;
+            slides = document.getElementsByClassName("mySlides");
+            dots = document.getElementsByClassName("dot");
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            slideIndex++;
+            if (slideIndex > slides.length) { slideIndex = 1 }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex - 1].style.display = "block";
+            dots[slideIndex - 1].className += " active";
+            setTimeout(showSlides, 4000); // Change image every 8 seconds
+        }
+
+        function plusSlides(position) {
+            slideIndex += position;
+            if (slideIndex > slides.length) { slideIndex = 1 }
+            else if (slideIndex < 1) { slideIndex = slides.length }
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex - 1].style.display = "block";
+            dots[slideIndex - 1].className += " active";
+        }
+
+        function currentSlide(index) {
+            if (index > slides.length) { index = 1 }
+            else if (index < 1) { index = slides.length }
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[index - 1].style.display = "block";
+            dots[index - 1].className += " active";
+        }
+    </script>
+
+
 </body>
+<grammarly-desktop-integration data-grammarly-shadow-root="true"></grammarly-desktop-integration>
 
 </html>
