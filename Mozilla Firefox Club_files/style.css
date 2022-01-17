@@ -78,6 +78,7 @@ h1{
     margin-top: 60px;
     display: flex;
     align-items: center;
+    padding-right:30px;
 }
 
 .icons{
@@ -92,6 +93,7 @@ h1{
     padding: 1rem;
     background-color: #000000;
     position: fixed;
+    top:0;
     width: 100vw;
     z-index: 100;
 
@@ -197,7 +199,8 @@ h1{
 .slideshow-container {
     /* width: 1200px; */
     position: relative;
-    margin: -10px;
+    padding-left:50px;
+    padding-right: 50px;
     width:1300px;
 
     margin-left: -29%!important;
@@ -295,5 +298,17 @@ h1{
 @media only screen and (max-width: 300px) {
     .text {
         font-size: 11px
+    }
+}
+@media only screen and  (max-width: 700px)
+{
+    .apart img{
+       width: 50vw;
+    }
+    .left{
+        padding-left:0px;
+    }
+    .left img{
+        width:125px;
     }
 }
